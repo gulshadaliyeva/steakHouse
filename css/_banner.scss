@@ -1,0 +1,14 @@
+#banner{
+    background-image: url(../img/otel-room.webp);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    .item{
+        h3{
+            color: white;
+            margin-bottom: 50px;
+            font-size: 30px;
+        }
+    }
+}

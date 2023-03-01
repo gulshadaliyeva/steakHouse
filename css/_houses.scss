@@ -1,0 +1,58 @@
+#houses{
+    background-color: #f8f6f2;
+    padding: 60px 0;
+    .title{
+        .content{
+            p{
+                color: #727475;
+            }
+            h4{
+                font-size: 20px;
+                font-weight: 400;
+                width: 628px;
+                display: inline-block;
+                color: #727475;
+            }
+        }
+    }
+    .hous{
+        padding-top: 40px;
+        .image-wrapper{
+            position: relative;
+            overflow: hidden;
+            img{
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+                transition: all .3s ease;
+                &:hover{
+                    transform: scale(1.2);
+                }
+            }
+            .item{
+                position: absolute;
+                width: 100%;
+                text-align: center;
+                top: 50%;
+                transform: translateY(-50%);
+                h3{
+                    color: white;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 767.98px){
+    #houses .title .content h4{
+        width: 100%;
+    }
+    #houses .hous .image-wrapper{
+        padding-bottom: 40px;
+    }
+}
+@media (max-width: 575.98px){
+    #houses .title .content h4{
+        font-size: 16px;
+    }
+}

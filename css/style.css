@@ -1,0 +1,566 @@
+header {
+  height: 80px;
+}
+header .menu ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+header .menu ul li {
+  padding-right: 15px;
+}
+header .menu ul li a {
+  text-decoration: none;
+  color: #727475;
+  transition: all 3s ease;
+  font-size: 13px;
+}
+header .menu ul li a:hover {
+  color: #b0b1b2;
+}
+header .logo {
+  display: flex;
+  justify-content: center;
+}
+header .logo img {
+  width: 200px;
+  background-size: contain;
+}
+header .bilet {
+  justify-content: center;
+  display: flex;
+}
+header .bilet a {
+  background: #45494E;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 13px 37px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+header .bilet a:hover {
+  background-color: #b7a18b;
+}
+header i {
+  font-size: 25px;
+}
+
+@media (max-width: 1199.98px) {
+  header .menu ul li a {
+    font-size: 11px;
+  }
+  header .bilet a {
+    font-size: 11px;
+  }
+}
+#slider {
+  background-image: url(../img/slider.jpg);
+  height: 550px;
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#slider .item {
+  color: white;
+}
+#slider .item h5 {
+  font-size: 16px;
+}
+#slider .item h3 {
+  font-size: 26px;
+}
+
+#features {
+  padding: 60px 0;
+}
+#features .image-wrapper img {
+  height: 500px;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+#features .item {
+  color: #727475;
+}
+#features .item h1 {
+  margin-bottom: 24px;
+}
+#features .item p {
+  margin: 0;
+  padding-bottom: 40px;
+  margin-right: 121px;
+}
+#features .item a {
+  text-decoration: none;
+  color: #b7a18b;
+}
+
+@media (max-width: 1199.98px) {
+  #features .item p {
+    margin-right: 0;
+  }
+}
+@media (max-width: 575.98px) {
+  #features .item {
+    padding-left: 6px;
+  }
+  #features .item h1 {
+    margin-top: 20px;
+  }
+}
+#houses {
+  background-color: #f8f6f2;
+  padding: 60px 0;
+}
+#houses .title .content p {
+  color: #727475;
+}
+#houses .title .content h4 {
+  font-size: 20px;
+  font-weight: 400;
+  width: 628px;
+  display: inline-block;
+  color: #727475;
+}
+#houses .hous {
+  padding-top: 40px;
+}
+#houses .hous .image-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+#houses .hous .image-wrapper img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.3s ease;
+}
+#houses .hous .image-wrapper img:hover {
+  transform: scale(1.2);
+}
+#houses .hous .image-wrapper .item {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#houses .hous .image-wrapper .item h3 {
+  color: white;
+  font-weight: 300;
+}
+
+@media (max-width: 767.98px) {
+  #houses .title .content h4 {
+    width: 100%;
+  }
+  #houses .hous .image-wrapper {
+    padding-bottom: 40px;
+  }
+}
+@media (max-width: 575.98px) {
+  #houses .title .content h4 {
+    font-size: 16px;
+  }
+}
+#wedding-hall {
+  background-image: url(../img/weddings-1.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position: bottom;
+}
+#wedding-hall .item {
+  color: white;
+}
+#wedding-hall .item h3 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+#wedding-hall .item h5 {
+  font-size: 16px;
+  margin-bottom: 60px;
+}
+#wedding-hall .item a {
+  background: #ccc3b0;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 11px 37px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+#wedding-hall .item a:hover {
+  background-color: rgb(148, 163, 147);
+}
+
+@media (max-width: 575.98px) {
+  #wedding-hall .item h3 {
+    font-size: 35px;
+  }
+}
+#testimonials {
+  padding: 60px 0;
+  background-color: #f8f6f2;
+}
+#testimonials .item {
+  color: #727475;
+  position: relative;
+}
+#testimonials .item .head {
+  position: absolute;
+  left: 30%;
+}
+#testimonials .item .lower {
+  position: absolute;
+  right: 30%;
+}
+#testimonials .item h3 {
+  padding-top: 40px;
+  padding-bottom: 15px;
+  font-size: 30px;
+  font-weight: 300;
+}
+#testimonials .item p {
+  padding-bottom: 40px;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 300;
+}
+#testimonials .content img {
+  border-radius: 100%;
+}
+#testimonials .content p {
+  color: #727475;
+  margin-top: 13px;
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+#testimonials .content button {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin: 5px;
+  border: 1px solid #999999;
+  transition: all 0.3s ease;
+}
+#testimonials .content button:hover {
+  background-color: black;
+  border: black;
+}
+#testimonials .content .gray {
+  background: #999999;
+  border: #999999;
+}
+
+@media (max-width: 1199.98px) {
+  #testimonials .item .head {
+    left: 23%;
+  }
+  #testimonials .item .lower {
+    right: 23%;
+  }
+}
+@media (max-width: 991.98px) {
+  #testimonials .item .head {
+    left: 15%;
+  }
+  #testimonials .item .lower {
+    right: 15%;
+  }
+}
+@media (max-width: 767.98px) {
+  #testimonials .item p {
+    font-size: 16px;
+  }
+  #testimonials .item .head {
+    left: 10%;
+  }
+  #testimonials .item .lower {
+    right: 10%;
+  }
+}
+@media (max-width: 575.98px) {
+  #testimonials .item p {
+    font-size: 13px;
+  }
+  #testimonials .item h3 {
+    font-size: 27px;
+  }
+  #testimonials .item .head {
+    left: 5%;
+  }
+  #testimonials .item .lower {
+    right: 5%;
+  }
+}
+#king-rooms {
+  padding: 60px 0;
+}
+#king-rooms .item {
+  position: relative;
+}
+#king-rooms .item img {
+  height: 486px;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+#king-rooms .item .content {
+  position: absolute;
+  top: 70%;
+  left: 8%;
+  color: white;
+}
+#king-rooms .item .content a {
+  text-decoration: none;
+  color: white;
+  background: #45494E;
+  padding: 10px 40px;
+  font-size: 13px;
+  transition: all 0.3s ease;
+}
+#king-rooms .item .content a:hover {
+  background-color: #b7a18b;
+}
+#king-rooms .item .content p {
+  font-weight: 100;
+  font-size: 19px;
+  margin-top: 30px;
+  margin-bottom: 8px;
+}
+#king-rooms .item .content h3 {
+  font-weight: 100;
+  font-size: 28px;
+}
+
+@media (max-width: 1199.98px) {
+  #king-rooms {
+    padding: 0;
+  }
+  #king-rooms .item .content {
+    top: 63%;
+    left: 4%;
+  }
+}
+@media (max-width: 991.98px) {
+  #king-rooms .item .content {
+    top: 53%;
+  }
+}
+@media (max-width: 767.98px) {
+  #king-rooms .item .content {
+    top: 40%;
+  }
+  #king-rooms .item .content p {
+    font-size: 17px;
+  }
+}
+@media (max-width: 575.98px) {
+  #king-rooms .item .content {
+    top: 44%;
+  }
+  #king-rooms .item .content p {
+    font-size: 16px;
+  }
+}
+footer {
+  background-color: #45494e;
+  padding: 60px 0 25px;
+}
+footer .contact {
+  padding: 0 0 40px;
+}
+footer .contact .img-wrapper {
+  width: 100%;
+}
+footer .contact .content {
+  color: white;
+}
+footer .contact .content h3 {
+  font-weight: 100;
+  font-size: 25px;
+}
+footer .contact .content p {
+  font-weight: 100;
+  font-size: 17px;
+}
+footer .lower p {
+  color: white;
+  font-weight: 100;
+  font-size: 15px;
+  padding-top: 30px;
+}
+footer .lower ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+footer .lower ul li a {
+  text-decoration: none;
+  margin-right: 25px;
+  color: white;
+  font-weight: 100;
+  font-size: 15px;
+  padding-bottom: 8px;
+  transition: all 0.3s ease;
+}
+footer .lower ul li a:hover {
+  color: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 2px 0 rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 1199.98px) {
+  footer .contact .content p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 991.98px) {
+  footer .contact .content h3 {
+    font-size: 20px;
+  }
+  footer .contact .content p {
+    font-size: 12px;
+  }
+  footer .lower ul li a {
+    font-size: 12px;
+  }
+  footer .lower p {
+    font-size: 12px;
+  }
+}
+#banner {
+  background-image: url(../img/otel-room.webp);
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#banner .item h3 {
+  color: white;
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+#rooms {
+  padding: 60px 0;
+}
+#rooms .title h3 {
+  margin-bottom: 30px;
+  font-weight: 100;
+  font-size: 27px;
+  color: #727475;
+}
+#rooms .room-result {
+  padding-bottom: 30px;
+}
+#rooms .room-result .img-wrapper {
+  position: relative;
+}
+#rooms .room-result .img-wrapper img {
+  width: 100%;
+}
+#rooms .room-result .img-wrapper a {
+  position: absolute;
+  z-index: 1;
+  opacity: 0.8;
+  text-decoration: none;
+  background: white;
+  color: #999;
+  width: 25px;
+  height: 25px;
+  right: 10px;
+  text-align: center;
+  top: 10px;
+  transition: all 0.3s ease;
+}
+#rooms .room-result .img-wrapper a:hover {
+  color: #444;
+  opacity: 0.9;
+}
+#rooms .room-result .content {
+  padding-left: 20px;
+  margin-top: 15px;
+}
+#rooms .room-result .content a {
+  text-decoration: none;
+  color: #B7A18B;
+  font-size: 20px;
+}
+#rooms .room-result .content h5 {
+  font-weight: 100;
+  color: #727475;
+  margin: 20px 0 15px;
+}
+#rooms .room-result .content P {
+  color: #727475;
+  margin-bottom: 30px;
+}
+#rooms .room-result .content ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+#rooms .room-result .content ul li {
+  margin-right: 15px;
+  color: #727475;
+}
+#rooms .room-result .item {
+  padding: 0;
+}
+#rooms .room-result .item i {
+  color: #B7A18B;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+#rooms .room-result .item h4 {
+  font-weight: 100;
+  color: #727475;
+  margin-bottom: 10px;
+}
+#rooms .room-result .item h5 {
+  font-weight: 100;
+  color: #727475;
+}
+#rooms .room-result .item div {
+  border-bottom: solid 1px #e1e1e1;
+  margin-bottom: 11px;
+}
+#rooms .room-result .item a {
+  background: #94A393;
+  text-decoration: none;
+  color: white;
+  padding: 6px 40px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+#rooms .room-result .item a:hover {
+  background: #B7A18B;
+}
+
+@media (max-width: 1199.98px) {
+  #rooms .room-result .content {
+    margin-top: 5px;
+  }
+  #rooms .room-result .content h5 {
+    margin: 10px 0 10px;
+  }
+  #rooms .room-result .content P {
+    margin-bottom: 20px;
+  }
+  #rooms .room-result .item i {
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 991.98px) {
+  #rooms .room-result .content {
+    margin: 0;
+    padding: 10px;
+  }
+  #rooms .room-result .item {
+    padding: 10px 0;
+  }
+}/*# sourceMappingURL=style.css.map */

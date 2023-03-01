@@ -1,0 +1,38 @@
+#features{
+    padding: 60px 0;
+    .image-wrapper{
+        img{
+            height: 500px;
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+    .item{
+        color: #727475;
+        h1{
+            margin-bottom: 24px;
+        }
+        p{
+            margin: 0;
+            padding-bottom: 40px;
+            margin-right: 121px;
+        }
+        a{
+            text-decoration: none;
+            color: #b7a18b;
+        }
+    }
+}
+@media (max-width: 1199.98px){
+    #features .item p{
+        margin-right: 0;
+    }
+}
+@media (max-width: 575.98px){
+    #features .item{
+        padding-left: 6px;
+    }
+    #features .item h1{
+        margin-top: 20px;
+    }
+}

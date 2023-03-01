@@ -1,0 +1,16 @@
+#slider{
+    background-image: url(../img/slider.jpg);
+    height: 550px;
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    .item{
+        color: white;
+        h5{
+             font-size: 16px;
+        }
+        h3{
+            font-size: 26px;
+        }
+    }
+}

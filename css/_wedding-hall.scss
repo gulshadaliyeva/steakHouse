@@ -1,0 +1,34 @@
+#wedding-hall{
+    background-image: url(../img/weddings-1.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: bottom;
+    .item{
+        color: white;
+        h3{     
+        font-size: 40px;
+        margin-bottom: 15px;
+        }
+        h5{
+            font-size: 16px;
+            margin-bottom: 60px;
+        }
+        a{
+            background: #ccc3b0;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 11px 37px;
+            font-size: 14px;
+            transition: all .3s ease;
+            &:hover{
+                background-color: rgb(148, 163, 147);
+            }
+            
+        }
+        }
+    }
+    @media (max-width: 575.98px){
+        #wedding-hall .item h3{
+            font-size: 35px;
+        }
+    }

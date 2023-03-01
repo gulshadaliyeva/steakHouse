@@ -1,0 +1,68 @@
+#king-rooms{
+    padding: 60px 0;
+    .item{
+        position: relative;
+        img{
+            height: 486px;
+            width: 100%;
+            object-fit: contain;
+        }
+        .content{
+            position: absolute;
+            top: 70%;
+            left: 8%;
+            color: white;
+            a{
+                text-decoration: none;
+                color: white;
+                background: #45494E;
+                padding: 10px 40px;
+                font-size: 13px;
+                transition: all 0.3s ease;
+                &:hover{
+                    background-color: #b7a18b;
+                }
+            }
+            p{
+                font-weight: 100;
+                font-size: 19px;
+                margin-top: 30px;
+                margin-bottom: 8px;
+            }
+            h3{
+                font-weight: 100;
+                font-size: 28px;
+            }
+        }
+    }
+}
+@media (max-width: 1199.98px){
+    #king-rooms{
+        padding: 0;
+    }
+    #king-rooms .item .content{
+        top: 63%;
+        left: 4%;
+    }
+}
+@media (max-width: 991.98px){
+    #king-rooms .item .content{
+        top: 53%;
+    }
+}
+@media (max-width: 767.98px){
+    #king-rooms .item .content{
+        top: 40%;
+    }
+    #king-rooms .item .content p{
+        font-size: 17px;
+    }
+}
+@media (max-width: 575.98px){
+    #king-rooms .item .content{
+        top: 44%;
+    }
+    #king-rooms .item .content p{
+        font-size: 16px;
+    }
+}
